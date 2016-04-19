@@ -3,6 +3,7 @@ SwiftChess
 
 *For iOS*. Written in Swift.
 
+#### Playable Chess game class design
 
 ---
 
