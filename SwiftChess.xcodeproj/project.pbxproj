@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		670CAA391CC496D000DE275B /* WinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670CAA381CC496D000DE275B /* WinnerView.swift */; };
+		670CAA3A1CC496D000DE275B /* WinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670CAA381CC496D000DE275B /* WinnerView.swift */; };
+		670CAA3B1CC496D000DE275B /* WinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670CAA381CC496D000DE275B /* WinnerView.swift */; };
+		673820871CB9C58600A87329 /* PawnPromotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820861CB9C58600A87329 /* PawnPromotionView.swift */; };
+		673820881CB9C58600A87329 /* PawnPromotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820861CB9C58600A87329 /* PawnPromotionView.swift */; };
+		673820891CB9C58600A87329 /* PawnPromotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820861CB9C58600A87329 /* PawnPromotionView.swift */; };
+		673820921CB9C65600A87329 /* Bishop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208B1CB9C65600A87329 /* Bishop.swift */; };
+		673820931CB9C65600A87329 /* Bishop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208B1CB9C65600A87329 /* Bishop.swift */; };
+		673820941CB9C65600A87329 /* Bishop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208B1CB9C65600A87329 /* Bishop.swift */; };
+		673820951CB9C65600A87329 /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208C1CB9C65600A87329 /* King.swift */; };
+		673820961CB9C65600A87329 /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208C1CB9C65600A87329 /* King.swift */; };
+		673820971CB9C65600A87329 /* King.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208C1CB9C65600A87329 /* King.swift */; };
+		673820981CB9C65600A87329 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208D1CB9C65600A87329 /* Knight.swift */; };
+		673820991CB9C65600A87329 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208D1CB9C65600A87329 /* Knight.swift */; };
+		6738209A1CB9C65600A87329 /* Knight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208D1CB9C65600A87329 /* Knight.swift */; };
+		6738209B1CB9C65600A87329 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208E1CB9C65600A87329 /* Pawn.swift */; };
+		6738209C1CB9C65600A87329 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208E1CB9C65600A87329 /* Pawn.swift */; };
+		6738209D1CB9C65600A87329 /* Pawn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208E1CB9C65600A87329 /* Pawn.swift */; };
+		6738209E1CB9C65600A87329 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208F1CB9C65600A87329 /* Piece.swift */; };
+		6738209F1CB9C65600A87329 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208F1CB9C65600A87329 /* Piece.swift */; };
+		673820A01CB9C65600A87329 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6738208F1CB9C65600A87329 /* Piece.swift */; };
+		673820A11CB9C65600A87329 /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820901CB9C65600A87329 /* Queen.swift */; };
+		673820A21CB9C65600A87329 /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820901CB9C65600A87329 /* Queen.swift */; };
+		673820A31CB9C65600A87329 /* Queen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820901CB9C65600A87329 /* Queen.swift */; };
+		673820A41CB9C65600A87329 /* Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820911CB9C65600A87329 /* Rook.swift */; };
+		673820A51CB9C65600A87329 /* Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820911CB9C65600A87329 /* Rook.swift */; };
+		673820A61CB9C65600A87329 /* Rook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820911CB9C65600A87329 /* Rook.swift */; };
+		673820A91CB9CE4900A87329 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820A81CB9CE4900A87329 /* Utils.swift */; };
+		673820AA1CB9CE4900A87329 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820A81CB9CE4900A87329 /* Utils.swift */; };
+		673820AB1CB9CE4900A87329 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820A81CB9CE4900A87329 /* Utils.swift */; };
+		673820B11CB9CF0A00A87329 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820AD1CB9CF0A00A87329 /* Board.swift */; };
+		673820B21CB9CF0A00A87329 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820AD1CB9CF0A00A87329 /* Board.swift */; };
+		673820B31CB9CF0A00A87329 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820AD1CB9CF0A00A87329 /* Board.swift */; };
+		673820B41CB9CF0A00A87329 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820AE1CB9CF0A00A87329 /* Game.swift */; };
+		673820B51CB9CF0A00A87329 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820AE1CB9CF0A00A87329 /* Game.swift */; };
+		673820B61CB9CF0A00A87329 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820AE1CB9CF0A00A87329 /* Game.swift */; };
+		673820B71CB9CF0A00A87329 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820AF1CB9CF0A00A87329 /* Player.swift */; };
+		673820B81CB9CF0A00A87329 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820AF1CB9CF0A00A87329 /* Player.swift */; };
+		673820B91CB9CF0A00A87329 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820AF1CB9CF0A00A87329 /* Player.swift */; };
+		673820BA1CB9CF0A00A87329 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820B01CB9CF0A00A87329 /* Square.swift */; };
+		673820BB1CB9CF0A00A87329 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820B01CB9CF0A00A87329 /* Square.swift */; };
+		673820BC1CB9CF0A00A87329 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820B01CB9CF0A00A87329 /* Square.swift */; };
+		673820BE1CB9D02B00A87329 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820BD1CB9D02B00A87329 /* SquareView.swift */; };
+		673820BF1CB9D02B00A87329 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820BD1CB9D02B00A87329 /* SquareView.swift */; };
+		673820C01CB9D02B00A87329 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673820BD1CB9D02B00A87329 /* SquareView.swift */; };
+		67B0BD6E1C83950700D6796C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0BD6D1C83950700D6796C /* AppDelegate.swift */; };
+		67B0BD701C83950700D6796C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0BD6F1C83950700D6796C /* ViewController.swift */; };
+		67B0BD731C83950700D6796C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B0BD711C83950700D6796C /* Main.storyboard */; };
+		67B0BD751C83950700D6796C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B0BD741C83950700D6796C /* Assets.xcassets */; };
+		67B0BD781C83950700D6796C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B0BD761C83950700D6796C /* LaunchScreen.storyboard */; };
+		67B0BD831C83950700D6796C /* SwiftChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0BD821C83950700D6796C /* SwiftChessTests.swift */; };
+		67B0BD8E1C83950700D6796C /* SwiftChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0BD8D1C83950700D6796C /* SwiftChessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67B0BD7F1C83950700D6796C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B0BD621C83950700D6796C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B0BD691C83950700D6796C;
+			remoteInfo = SwiftChess;
+		};
+		67B0BD8A1C83950700D6796C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B0BD621C83950700D6796C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B0BD691C83950700D6796C;
+			remoteInfo = SwiftChess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		670CAA381CC496D000DE275B /* WinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinnerView.swift; sourceTree = "<group>"; };
+		673820861CB9C58600A87329 /* PawnPromotionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PawnPromotionView.swift; sourceTree = "<group>"; };
+		6738208B1CB9C65600A87329 /* Bishop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bishop.swift; sourceTree = "<group>"; };
+		6738208C1CB9C65600A87329 /* King.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = King.swift; sourceTree = "<group>"; };
+		6738208D1CB9C65600A87329 /* Knight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
+		6738208E1CB9C65600A87329 /* Pawn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pawn.swift; sourceTree = "<group>"; };
+		6738208F1CB9C65600A87329 /* Piece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		673820901CB9C65600A87329 /* Queen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queen.swift; sourceTree = "<group>"; };
+		673820911CB9C65600A87329 /* Rook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rook.swift; sourceTree = "<group>"; };
+		673820A81CB9CE4900A87329 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		673820AD1CB9CF0A00A87329 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		673820AE1CB9CF0A00A87329 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		673820AF1CB9CF0A00A87329 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		673820B01CB9CF0A00A87329 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		673820BD1CB9D02B00A87329 /* SquareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		67B0BD6A1C83950700D6796C /* SwiftChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B0BD6D1C83950700D6796C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67B0BD6F1C83950700D6796C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67B0BD721C83950700D6796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67B0BD741C83950700D6796C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67B0BD771C83950700D6796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67B0BD791C83950700D6796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B0BD7E1C83950700D6796C /* SwiftChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftChessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B0BD821C83950700D6796C /* SwiftChessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChessTests.swift; sourceTree = "<group>"; };
+		67B0BD841C83950700D6796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B0BD891C83950700D6796C /* SwiftChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B0BD8D1C83950700D6796C /* SwiftChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChessUITests.swift; sourceTree = "<group>"; };
+		67B0BD8F1C83950700D6796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B0BD671C83950700D6796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B0BD7B1C83950700D6796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B0BD861C83950700D6796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6738208A1CB9C65600A87329 /* Pieces */ = {
+			isa = PBXGroup;
+			children = (
+				6738208F1CB9C65600A87329 /* Piece.swift */,
+				6738208B1CB9C65600A87329 /* Bishop.swift */,
+				6738208C1CB9C65600A87329 /* King.swift */,
+				6738208D1CB9C65600A87329 /* Knight.swift */,
+				6738208E1CB9C65600A87329 /* Pawn.swift */,
+				673820901CB9C65600A87329 /* Queen.swift */,
+				673820911CB9C65600A87329 /* Rook.swift */,
+			);
+			path = Pieces;
+			sourceTree = "<group>";
+		};
+		673820A71CB9CE4900A87329 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				673820A81CB9CE4900A87329 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		673820AC1CB9CF0A00A87329 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				673820AE1CB9CF0A00A87329 /* Game.swift */,
+				673820AD1CB9CF0A00A87329 /* Board.swift */,
+				673820AF1CB9CF0A00A87329 /* Player.swift */,
+				673820B01CB9CF0A00A87329 /* Square.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		67B0BD611C83950700D6796C = {
+			isa = PBXGroup;
+			children = (
+				67B0BD6C1C83950700D6796C /* SwiftChess */,
+				67B0BD811C83950700D6796C /* SwiftChessTests */,
+				67B0BD8C1C83950700D6796C /* SwiftChessUITests */,
+				67B0BD6B1C83950700D6796C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67B0BD6B1C83950700D6796C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67B0BD6A1C83950700D6796C /* SwiftChess.app */,
+				67B0BD7E1C83950700D6796C /* SwiftChessTests.xctest */,
+				67B0BD891C83950700D6796C /* SwiftChessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67B0BD6C1C83950700D6796C /* SwiftChess */ = {
+			isa = PBXGroup;
+			children = (
+				67B0BD6D1C83950700D6796C /* AppDelegate.swift */,
+				67B0BD6F1C83950700D6796C /* ViewController.swift */,
+				670CAA381CC496D000DE275B /* WinnerView.swift */,
+				673820861CB9C58600A87329 /* PawnPromotionView.swift */,
+				673820BD1CB9D02B00A87329 /* SquareView.swift */,
+				673820AC1CB9CF0A00A87329 /* Game */,
+				6738208A1CB9C65600A87329 /* Pieces */,
+				673820A71CB9CE4900A87329 /* Utils */,
+				67B0BD711C83950700D6796C /* Main.storyboard */,
+				67B0BD741C83950700D6796C /* Assets.xcassets */,
+				67B0BD761C83950700D6796C /* LaunchScreen.storyboard */,
+				67B0BD791C83950700D6796C /* Info.plist */,
+			);
+			path = SwiftChess;
+			sourceTree = "<group>";
+		};
+		67B0BD811C83950700D6796C /* SwiftChessTests */ = {
+			isa = PBXGroup;
+			children = (
+				67B0BD821C83950700D6796C /* SwiftChessTests.swift */,
+				67B0BD841C83950700D6796C /* Info.plist */,
+			);
+			path = SwiftChessTests;
+			sourceTree = "<group>";
+		};
+		67B0BD8C1C83950700D6796C /* SwiftChessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67B0BD8D1C83950700D6796C /* SwiftChessUITests.swift */,
+				67B0BD8F1C83950700D6796C /* Info.plist */,
+			);
+			path = SwiftChessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67B0BD691C83950700D6796C /* SwiftChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B0BD921C83950700D6796C /* Build configuration list for PBXNativeTarget "SwiftChess" */;
+			buildPhases = (
+				67B0BD661C83950700D6796C /* Sources */,
+				67B0BD671C83950700D6796C /* Frameworks */,
+				67B0BD681C83950700D6796C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftChess;
+			productName = SwiftChess;
+			productReference = 67B0BD6A1C83950700D6796C /* SwiftChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67B0BD7D1C83950700D6796C /* SwiftChessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B0BD951C83950700D6796C /* Build configuration list for PBXNativeTarget "SwiftChessTests" */;
+			buildPhases = (
+				67B0BD7A1C83950700D6796C /* Sources */,
+				67B0BD7B1C83950700D6796C /* Frameworks */,
+				67B0BD7C1C83950700D6796C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B0BD801C83950700D6796C /* PBXTargetDependency */,
+			);
+			name = SwiftChessTests;
+			productName = SwiftChessTests;
+			productReference = 67B0BD7E1C83950700D6796C /* SwiftChessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67B0BD881C83950700D6796C /* SwiftChessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B0BD981C83950700D6796C /* Build configuration list for PBXNativeTarget "SwiftChessUITests" */;
+			buildPhases = (
+				67B0BD851C83950700D6796C /* Sources */,
+				67B0BD861C83950700D6796C /* Frameworks */,
+				67B0BD871C83950700D6796C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B0BD8B1C83950700D6796C /* PBXTargetDependency */,
+			);
+			name = SwiftChessUITests;
+			productName = SwiftChessUITests;
+			productReference = 67B0BD891C83950700D6796C /* SwiftChessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67B0BD621C83950700D6796C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ArjunGupta;
+				TargetAttributes = {
+					67B0BD691C83950700D6796C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = W9K648WB82;
+					};
+					67B0BD7D1C83950700D6796C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 67B0BD691C83950700D6796C;
+					};
+					67B0BD881C83950700D6796C = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 67B0BD691C83950700D6796C;
+					};
+				};
+			};
+			buildConfigurationList = 67B0BD651C83950700D6796C /* Build configuration list for PBXProject "SwiftChess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67B0BD611C83950700D6796C;
+			productRefGroup = 67B0BD6B1C83950700D6796C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67B0BD691C83950700D6796C /* SwiftChess */,
+				67B0BD7D1C83950700D6796C /* SwiftChessTests */,
+				67B0BD881C83950700D6796C /* SwiftChessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B0BD681C83950700D6796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B0BD781C83950700D6796C /* LaunchScreen.storyboard in Resources */,
+				67B0BD751C83950700D6796C /* Assets.xcassets in Resources */,
+				67B0BD731C83950700D6796C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B0BD7C1C83950700D6796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B0BD871C83950700D6796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B0BD661C83950700D6796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673820A41CB9C65600A87329 /* Rook.swift in Sources */,
+				67B0BD701C83950700D6796C /* ViewController.swift in Sources */,
+				673820981CB9C65600A87329 /* Knight.swift in Sources */,
+				67B0BD6E1C83950700D6796C /* AppDelegate.swift in Sources */,
+				673820A11CB9C65600A87329 /* Queen.swift in Sources */,
+				673820A91CB9CE4900A87329 /* Utils.swift in Sources */,
+				673820B11CB9CF0A00A87329 /* Board.swift in Sources */,
+				673820BE1CB9D02B00A87329 /* SquareView.swift in Sources */,
+				673820951CB9C65600A87329 /* King.swift in Sources */,
+				670CAA391CC496D000DE275B /* WinnerView.swift in Sources */,
+				673820BA1CB9CF0A00A87329 /* Square.swift in Sources */,
+				6738209E1CB9C65600A87329 /* Piece.swift in Sources */,
+				673820B41CB9CF0A00A87329 /* Game.swift in Sources */,
+				673820921CB9C65600A87329 /* Bishop.swift in Sources */,
+				673820871CB9C58600A87329 /* PawnPromotionView.swift in Sources */,
+				673820B71CB9CF0A00A87329 /* Player.swift in Sources */,
+				6738209B1CB9C65600A87329 /* Pawn.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B0BD7A1C83950700D6796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673820881CB9C58600A87329 /* PawnPromotionView.swift in Sources */,
+				6738209F1CB9C65600A87329 /* Piece.swift in Sources */,
+				6738209C1CB9C65600A87329 /* Pawn.swift in Sources */,
+				67B0BD831C83950700D6796C /* SwiftChessTests.swift in Sources */,
+				673820B21CB9CF0A00A87329 /* Board.swift in Sources */,
+				673820B81CB9CF0A00A87329 /* Player.swift in Sources */,
+				673820BF1CB9D02B00A87329 /* SquareView.swift in Sources */,
+				673820A21CB9C65600A87329 /* Queen.swift in Sources */,
+				673820AA1CB9CE4900A87329 /* Utils.swift in Sources */,
+				670CAA3A1CC496D000DE275B /* WinnerView.swift in Sources */,
+				673820B51CB9CF0A00A87329 /* Game.swift in Sources */,
+				673820A51CB9C65600A87329 /* Rook.swift in Sources */,
+				673820BB1CB9CF0A00A87329 /* Square.swift in Sources */,
+				673820961CB9C65600A87329 /* King.swift in Sources */,
+				673820931CB9C65600A87329 /* Bishop.swift in Sources */,
+				673820991CB9C65600A87329 /* Knight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B0BD851C83950700D6796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673820891CB9C58600A87329 /* PawnPromotionView.swift in Sources */,
+				673820A01CB9C65600A87329 /* Piece.swift in Sources */,
+				6738209D1CB9C65600A87329 /* Pawn.swift in Sources */,
+				67B0BD8E1C83950700D6796C /* SwiftChessUITests.swift in Sources */,
+				673820B31CB9CF0A00A87329 /* Board.swift in Sources */,
+				673820B91CB9CF0A00A87329 /* Player.swift in Sources */,
+				673820C01CB9D02B00A87329 /* SquareView.swift in Sources */,
+				673820A31CB9C65600A87329 /* Queen.swift in Sources */,
+				673820AB1CB9CE4900A87329 /* Utils.swift in Sources */,
+				670CAA3B1CC496D000DE275B /* WinnerView.swift in Sources */,
+				673820B61CB9CF0A00A87329 /* Game.swift in Sources */,
+				673820A61CB9C65600A87329 /* Rook.swift in Sources */,
+				673820BC1CB9CF0A00A87329 /* Square.swift in Sources */,
+				673820971CB9C65600A87329 /* King.swift in Sources */,
+				673820941CB9C65600A87329 /* Bishop.swift in Sources */,
+				6738209A1CB9C65600A87329 /* Knight.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67B0BD801C83950700D6796C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B0BD691C83950700D6796C /* SwiftChess */;
+			targetProxy = 67B0BD7F1C83950700D6796C /* PBXContainerItemProxy */;
+		};
+		67B0BD8B1C83950700D6796C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B0BD691C83950700D6796C /* SwiftChess */;
+			targetProxy = 67B0BD8A1C83950700D6796C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67B0BD711C83950700D6796C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B0BD721C83950700D6796C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67B0BD761C83950700D6796C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B0BD771C83950700D6796C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67B0BD901C83950700D6796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67B0BD911C83950700D6796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67B0BD931C83950700D6796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SwiftChess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArjunGupta.SwiftChess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67B0BD941C83950700D6796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SwiftChess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArjunGupta.SwiftChess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67B0BD961C83950700D6796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftChessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArjunGupta.SwiftChessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftChess.app/SwiftChess";
+			};
+			name = Debug;
+		};
+		67B0BD971C83950700D6796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftChessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArjunGupta.SwiftChessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftChess.app/SwiftChess";
+			};
+			name = Release;
+		};
+		67B0BD991C83950700D6796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftChessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArjunGupta.SwiftChessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftChess;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		67B0BD9A1C83950700D6796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftChessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArjunGupta.SwiftChessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftChess;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67B0BD651C83950700D6796C /* Build configuration list for PBXProject "SwiftChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B0BD901C83950700D6796C /* Debug */,
+				67B0BD911C83950700D6796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B0BD921C83950700D6796C /* Build configuration list for PBXNativeTarget "SwiftChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B0BD931C83950700D6796C /* Debug */,
+				67B0BD941C83950700D6796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B0BD951C83950700D6796C /* Build configuration list for PBXNativeTarget "SwiftChessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B0BD961C83950700D6796C /* Debug */,
+				67B0BD971C83950700D6796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B0BD981C83950700D6796C /* Build configuration list for PBXNativeTarget "SwiftChessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B0BD991C83950700D6796C /* Debug */,
+				67B0BD9A1C83950700D6796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67B0BD621C83950700D6796C /* Project object */;
+}
