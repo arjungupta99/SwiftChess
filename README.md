@@ -1,4 +1,4 @@
-SwiftChess 
+Swift Chess 
 =============
 
 #### Playable Chess game class design
@@ -24,3 +24,7 @@ SwiftChess
 ---
 
 By Arjun Gupta
+
+Chess pieces image credit:
+Created by Shaun. http://www.freevector.com/chess-board-and-pieces.
+License: https://creativecommons.org/licenses/by-nc/4.0/
